@@ -1,1 +1,1 @@
-# Production Grade Go Fullstack Boiler Plate For Mono Repo
+# Go + Typescript Boiler Plate

@@ -1,0 +1,36 @@
+{
+  "name": "go-boiler-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "format:check": "turbo run format:check",
+    "format:fix": "turbo run format:fix",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean && rimraf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venkat1abhinav/go-boiler-plate.git"
+  },
+  "packageManager": "bun",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Venkat1abhinav/go-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/Venkat1abhinav/go-boiler-plate#readme",
+  "devDependencies": {
+    "turbo": "^2.11.4",
+    "typescript": "^7.0.2"
+  }
+}
